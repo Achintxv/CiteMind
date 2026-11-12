@@ -1,0 +1,10 @@
+process.env.DATABASE_URL ??= 'postgresql://test:test@localhost:5432/test';
+process.env.GEMINI_API_KEY = 'test-key-not-real-1234567890';
+process.env.GEMINI_CHAT_MODEL = 'gemini-test-chat';
+process.env.GEMINI_EMBEDDING_MODEL = 'gemini-test-embedding';
+process.env.EMBEDDING_DIMENSIONS = '768';
+process.env.MAX_FILE_SIZE = '1048576';
+process.env.CHUNK_SIZE = '800';
+process.env.CHUNK_OVERLAP = '150';
+process.env.TOP_K = '3';
+process.env.SIMILARITY_THRESHOLD = '0.5';
